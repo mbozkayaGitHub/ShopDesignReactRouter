@@ -213,7 +213,7 @@ header .nav-link:hover {
 /* FOOTER ////////////////////////////////////////////////////////////// */
 
 footer {
-
+background-color: red;
 	padding: 40px 0 100px 0;
 	
 }
