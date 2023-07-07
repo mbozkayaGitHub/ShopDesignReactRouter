@@ -9,6 +9,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Products from "./pages/Products";
+import SingleProduct from "./pages/SingleProduct";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/products/:productId" element={<SingleProduct />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
