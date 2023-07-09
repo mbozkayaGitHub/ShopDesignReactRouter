@@ -5,7 +5,7 @@ const Home = () => {
     <main>
       <div className='pg-header'>
         <div className='container'>
-          <h1>Welcome To WebStylePress</h1>
+          <h1>Welcome To MIKE WEBSHOP</h1>
         </div>
       </div>
       <div className='container content'>
